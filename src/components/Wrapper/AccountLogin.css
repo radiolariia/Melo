@@ -1,0 +1,34 @@
+.account-login {
+    position: relative;
+    text-align: center;
+    background-color: #faf3e4;
+    display: inline-block;
+    z-index: 99;
+}
+.account-login .cross {
+    float: right;
+    padding: 0.5rem 0.5rem;
+}
+@media screen and (max-width: 768px){
+    .account-login  {
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .account-login  {
+        height: calc(100vh - 80px);
+        width: calc(100vw - 150px);
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .account-login  {
+        top: 10rem;
+        left: 100px;
+        padding: 1rem 1rem 3rem;
+        width: 500px;
+
+    }
+}

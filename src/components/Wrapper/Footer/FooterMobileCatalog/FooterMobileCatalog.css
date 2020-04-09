@@ -1,0 +1,19 @@
+.footer__links {
+    position: relative;
+    border-bottom: 0.5px solid #2f2a28;
+}
+.footer__links_right {
+    float: right;
+    text-align: right;
+}
+.footer__links_left {
+    display: inline-block;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .footer__links {
+        margin: 20px;
+    }
+    .footer__links {
+        display: none;
+    }
+}

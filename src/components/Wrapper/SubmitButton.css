@@ -1,0 +1,50 @@
+.btn {
+    font-family: inherit;
+    font-weight: bold;
+    background-color: transparent;
+    color: #757575;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 1px rgb(0, 0, 0, 0.5);
+    border-style: none;
+}
+.addToBasketButton, .basket .btn {
+    color: #757575;
+    border: 3px solid #ccc;
+    box-shadow: none;
+}
+.addToBasketButton {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.item:hover .addToBasketButton {
+    opacity: 1;
+}
+.item:hover .addToBasketButton:hover, .basket .btn:hover{
+    border: 3px solid rgba(253, 88, 37, 0.7);
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+@media screen and (max-width: 768px){
+    .btn {
+        height: 40px;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .btn {
+        height: 50px;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .btn {
+        height: 40px;
+        width: 60%;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+}

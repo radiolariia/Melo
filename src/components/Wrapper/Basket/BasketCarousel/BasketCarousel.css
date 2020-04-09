@@ -1,0 +1,15 @@
+.basket-carousel {
+    margin: 20px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .basket-carousel {
+        height: 250px;
+        margin: 30px 0;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+
+}

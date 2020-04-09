@@ -1,0 +1,28 @@
+.basket__item {
+    margin-left: 30px;
+    padding: 0.5rem 0;
+    color: #222222;
+}
+.basket__image {
+    margin-right: 2rem;
+    display: inline-block;
+}
+.basket__info {
+    text-align: left;
+    display: inline-block;
+}
+.basket__buttons {
+    margin-top: 35px;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .basket__title {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .basket__image {
+        margin-right: 30px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+}

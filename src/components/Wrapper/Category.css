@@ -1,0 +1,20 @@
+.category {
+    margin-top: 5rem;
+    padding: 0.5rem 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease-out;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fd5825;
+    display: inline-block;
+
+}
+.category:hover {
+    border-bottom: 2px solid #fd5825;
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .category{
+        height: 40px;
+        font-size: 1.8rem;
+    }
+}

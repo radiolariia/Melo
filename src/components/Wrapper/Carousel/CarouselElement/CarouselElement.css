@@ -1,0 +1,10 @@
+/*style.css*/
+.carousel__element {
+    z-index: 98;
+    display: inline-block;
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .carousel__element {
+        height: 535px;
+    }
+}

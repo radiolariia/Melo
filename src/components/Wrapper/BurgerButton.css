@@ -1,0 +1,31 @@
+.burger {
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    margin-right: auto;
+    float: left;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.burger__top, .burger__center, .burger__bottom {
+    height: 2px;
+    background-color: #fd5825;
+    margin-top: 6px;
+    border-radius: 15px;
+    position: relative;
+    transition: .3s all ease-in;
+}
+.burger_cross__top {
+    transform: translateX(0) translateY(8px) rotate(45deg);
+}
+.burger_cross__center    {
+    transform: scale(0);
+}
+.burger_cross__bottom {
+    transform: translateX(0) translateY(-8px) rotate(-45deg);
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    /*.burger {*/
+    /*    display: none;*/
+    /*}*/
+}

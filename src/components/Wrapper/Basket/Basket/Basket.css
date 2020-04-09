@@ -1,0 +1,36 @@
+.basket {
+    position: relative;
+    background-color: #faf3e4;
+    text-align: right;
+    display: inline-block;
+    overflow: scroll;
+    z-index: 99;
+}
+
+@media screen and (max-width: 768px){
+    .basket {
+        height: calc(100vh - 80px);
+        width: calc(100vw - 50px);
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .basket {
+        height: calc(100vh - 80px);
+        width: calc(100vw - 150px);
+        margin-top: 20px;
+        border-radius: 15px;
+        background-color: #222222;
+        text-align: right;
+        box-shadow: 4px 6px 1rem 0px #000;
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .basket {
+        top: 50px;
+        max-width: 600px;
+        height: calc(100% - 50px);
+    }
+}

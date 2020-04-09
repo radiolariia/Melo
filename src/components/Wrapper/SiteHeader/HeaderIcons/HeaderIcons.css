@@ -1,0 +1,9 @@
+.icons {
+    background-color: #fd5825;
+    display: flex;
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .icons {
+        background-color: transparent;
+    }
+}

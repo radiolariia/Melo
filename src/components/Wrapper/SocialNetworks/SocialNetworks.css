@@ -1,0 +1,6 @@
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .social-networks {
+        padding: 1.25rem;
+        border-top: 1px solid #2f2a28;
+    }
+}

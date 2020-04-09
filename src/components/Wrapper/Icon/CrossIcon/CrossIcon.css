@@ -1,0 +1,10 @@
+.cross {
+    padding: 1rem 1rem 0;
+    display: inline-block;
+    cursor: pointer;
+    fill: #fd5825;
+}
+.cross svg {
+    width: 30px;
+    height: 30px;
+}

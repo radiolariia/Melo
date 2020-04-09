@@ -1,0 +1,33 @@
+/*style.css*/
+.carousel {
+    text-align: center;
+    background-color: #faf3e4;
+     overflow-x: scroll;
+     transition: all 0.2s;
+}
+.carousel__list_active {
+    cursor: grabbing;
+}
+.carousel__list {
+    position: relative;
+    width: 100%;
+    z-index: 97;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    text-align: left;
+    /*transition: margin-left 1500ms;*/
+}
+@media screen and (max-width: 768px){
+    .carousel__list {
+        height: 305px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    .carousel {
+        margin-left: 100px;
+    }
+}

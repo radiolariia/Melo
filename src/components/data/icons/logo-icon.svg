@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_4_);}
+	.st1{fill:#2C2C2E;}
+	.st2{fill:#141213;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:url(#XMLID_6_);}
+</style>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="12.4979" y1="3.3458" x2="37.5021" y2="46.6543">
+	<stop  offset="0.31" style="stop-color:#FD5825"/>
+	<stop  offset="1" style="stop-color:#161515"/>
+</linearGradient>
+<path id="XMLID_436_" class="st0" d="M25,0C11.2,0,0,11.2,0,25s11.2,25,25,25s25-11.2,25-25S38.8,0,25,0z M25,49.2
+	c-13.4,0-24.3-10.9-24.3-24.3S11.6,0.5,25,0.5s24.3,10.9,24.3,24.3S38.4,49.2,25,49.2z"/>
+<circle id="XMLID_434_" class="st1" cx="25" cy="24.8" r="24.3"/>
+<circle id="XMLID_414_" class="st1" cx="25" cy="24.8" r="15.6"/>
+<g id="XMLID_1_">
+	<defs>
+		<rect id="XMLID_2_" width="50" height="50"/>
+	</defs>
+	<clipPath id="XMLID_5_">
+		<use xlink:href="#XMLID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#XMLID_5_);">
+		
+			<image style="overflow:visible;" width="417" height="417" id="XMLID_413_" xlink:href="F40CB434.png"  transform="matrix(0.24 0 0 0.24 -24.9306 -25.0935)">
+		</image>
+	</g>
+</g>
+<circle id="XMLID_407_" class="st2" cx="25" cy="24.8" r="8.5"/>
+<g id="XMLID_404_">
+	
+		<image style="overflow:visible;" width="359" height="359" id="XMLID_41_" xlink:href="F40CB435.png"  transform="matrix(0.24 0 0 0.24 -17.9906 -18.1535)">
+	</image>
+</g>
+<circle id="XMLID_393_" class="st3" cx="25" cy="24.8" r="5.8"/>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="20.5008" y1="21.1789" x2="29.522" y2="28.5139">
+	<stop  offset="0" style="stop-color:#44434C"/>
+	<stop  offset="0.3455" style="stop-color:#262525"/>
+	<stop  offset="0.6489" style="stop-color:#120E0F"/>
+</linearGradient>
+<circle id="XMLID_392_" class="st4" cx="25" cy="24.8" r="5.8"/>
+<image style="overflow:visible;" width="820" height="820" id="XMLID_390_" xlink:href="F40CB433.png"  transform="matrix(3.908795e-002 0 0 3.908795e-002 8.9759 8.813)">
+</image>
+</svg>

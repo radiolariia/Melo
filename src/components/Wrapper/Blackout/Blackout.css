@@ -1,0 +1,9 @@
+.blackout {
+    position: absolute;
+    z-index: 98;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    transition: opacity 0.35s ease 0s, max-height 0.35s step-start 0s;
+}
