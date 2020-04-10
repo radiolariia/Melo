@@ -2,7 +2,7 @@ import React from "react";
 import './About.css'
 import {Link} from 'react-router-dom'
 
-class Search extends React.Component{
+class Search extends React.Component {
     render() {
         return (
             <React.Fragment>
