@@ -2,8 +2,16 @@
     padding: 1rem 0;
     background-color: white;
 }
+@media screen and (max-width: 1023px) {
+    .recommended .item {
+        max-width: 220px;
+    }
+}
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
     .recommended {
         margin-left: 100px;
+    }
+    .recommended .item {
+        max-width: 240px;
     }
 }

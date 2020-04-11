@@ -2,7 +2,7 @@ import React from "react"
 import classnames from "classnames";
 import './SiteHeader.css'
 import MainNavLinks from "../MainNav/MainNavLinks/MainNavLinks";
-import Icon from '../Icon/Icon'
+import BurgerButton from '../BurgerButton'
 import HeaderIcons from './HeaderIcons/HeaderIcons.js'
 
 
@@ -38,6 +38,7 @@ class SiteHeader extends React.Component {
             <header className={classnames("site__header",
                 {'site__header_hidden': !this.state.isVisible
             })}>
+                <BurgerButton/>
                 <MainNavLinks/>
                 <HeaderIcons
                     toggleBasket={this.props.toggleBasket}

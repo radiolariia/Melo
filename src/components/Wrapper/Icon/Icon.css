@@ -6,3 +6,8 @@
     cursor: pointer;
     display: inline-block;
 }
+@media screen and (max-width: 768px) {
+    .icon {
+        fill: #fd5825;
+    }
+}

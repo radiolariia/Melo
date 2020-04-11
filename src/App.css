@@ -197,9 +197,7 @@ input[type="search"]::-webkit-search-results-decoration{
   fill: #fd5825;
 }
 
-.carousel .item__title, .carousel .item__artist {
-  color: #222222;
-}
+
 .footer-logo {
   background-color: #ccc;
 }
@@ -225,21 +223,6 @@ input[type="search"]::-webkit-search-results-decoration{
 
 /*mobile-screen.css*/
 @media screen and (max-width: 768px){
-  .site__header-links {
-    display: none;
-  }
-  .site__header-logo {
-    position: absolute;
-    left: calc(50% - 28px);
-    width: 48px;
-    height: 48px;
-    padding: 0 4px;
-    display: inline-block;
-    overflow: hidden;
-  }
-  .icons.collapsed {
-    flex: 1;
-  }
   .main-nav__sectionElem__link>svg {
     width: 40px;
     height: 40px;
@@ -258,11 +241,7 @@ input[type="search"]::-webkit-search-results-decoration{
     border-top: 0.5px solid #2f2a28;
   }
 
-  .carousel__element>.item {
-    width: 180px;
-    height: 250px;
-    margin: 15px;
-  }
+
   .additions {
     height: 440px;
     background-color: #fd582547;
@@ -280,10 +259,7 @@ input[type="search"]::-webkit-search-results-decoration{
   }
 
 
-  .footer .social-networks {
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
+
   .footer svg {
     height: 12px;
   }
@@ -329,7 +305,7 @@ input[type="search"]::-webkit-search-results-decoration{
   }
 
   .main-nav__links>a  {
-    padding: 1.5rem 1rem;
+    padding: 1.1rem 0.8rem 0.5rem;
   }
   .main-nav .social-networks .icon>svg {
     height: 18px;
@@ -353,12 +329,6 @@ input[type="search"]::-webkit-search-results-decoration{
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
   body.no-scroll {
     overflow: scroll;
-  }
-  .carousel__element>.item {
-    width: 300px;
-    max-width: none;
-    margin: 30px 50px 20px;
-    padding-bottom: 20px;
   }
   .main-nav-logo {
     display: inline-block;
@@ -411,7 +381,7 @@ input[type="search"]::-webkit-search-results-decoration{
   .footer .social-networks {
 
     border: none;
-    text-align: right;
+
     display: block;
   }
   .footer .social-networks svg {

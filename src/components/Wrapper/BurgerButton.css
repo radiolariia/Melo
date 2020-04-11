@@ -3,13 +3,12 @@
     height: 28px;
     padding: 10px;
     margin-right: auto;
-    float: left;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
 .burger__top, .burger__center, .burger__bottom {
     height: 2px;
-    background-color: #fd5825;
+    background-color: #222222;
     margin-top: 6px;
     border-radius: 15px;
     position: relative;
@@ -24,8 +23,13 @@
 .burger_cross__bottom {
     transform: translateX(0) translateY(-8px) rotate(-45deg);
 }
-@media screen and (min-width: 1024px) and (max-width: 2560px) {
-    /*.burger {*/
-    /*    display: none;*/
-    /*}*/
+@media screen and (max-width: 768px) {
+    .burger__top, .burger__center, .burger__bottom {
+        background-color: #fd5825;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    .burger {
+        display: none;
+    }
 }

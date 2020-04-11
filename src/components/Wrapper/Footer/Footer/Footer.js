@@ -2,6 +2,7 @@ import React from "react"
 import './Footer.css'
 import SocialNetworks from "../../SocialNetworks/SocialNetworks";
 import FooterSubscribe from "../FooterSubscribe/FooterSubscribe";
+import FooterMobileCatalog from '../FooterMobileCatalog/FooterMobileCatalog'
 
 class Footer extends React.Component {
     constructor() {
@@ -15,7 +16,7 @@ class Footer extends React.Component {
         return (
             <footer className='footer'>
                 {/*<FooterMobileCatalog/>*/}
-                {/*<FooterSubscribe/>*/}
+                <FooterSubscribe/>
                 <SocialNetworks/>
             </footer>
         );
