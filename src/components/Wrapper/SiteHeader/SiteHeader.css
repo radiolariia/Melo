@@ -14,11 +14,21 @@
 }
 @media screen and (max-width: 768px) {
     .site__header {
+        background-color: #222222;
+        width: 100%;
+    }
+    .site__header .main-nav__links {
+        display: none;
+    }
+}
+@media screen and  (min-width: 769px) and (max-width: 1023px) {
+    .site__header {
         width: 100%;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
     .site__header {
         padding-left: 100px;
+        width: calc(100% - 100px);
     }
 }

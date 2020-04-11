@@ -3,8 +3,23 @@
     z-index: 98;
     display: inline-block;
 }
+@media screen and (max-width: 768px) {
+    .carousel__element .item {
+        width: 220px;
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .carousel__element  .item {
+        width: 250px;
+        margin: 1rem;
+    }
+}
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
-    .carousel__element {
-        height: 535px;
+    .carousel__element .item {
+        width: 300px;
+        max-width: none;
+        margin: 2rem 3rem 1.5rem;
+        padding-bottom: 20px;
     }
 }

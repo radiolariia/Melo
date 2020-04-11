@@ -10,7 +10,7 @@
 @media screen and (max-width: 768px){
     .basket {
         height: calc(100vh - 80px);
-        width: calc(100vw - 50px);
+        width: 75%;
         margin-top: 20px;
     }
 }
@@ -20,9 +20,8 @@
         width: calc(100vw - 150px);
         margin-top: 20px;
         border-radius: 15px;
-        background-color: #222222;
         text-align: right;
-        box-shadow: 4px 6px 1rem 0px #000;
+        box-shadow: 4px 6px 1rem 0 #000;
         display: inline-block;
         overflow: scroll;
     }

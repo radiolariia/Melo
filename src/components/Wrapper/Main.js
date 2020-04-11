@@ -3,7 +3,7 @@ import Carousel from "./Carousel/Carousel/Carousel";
 import Recommended from "./Recommended/Recommended";
 import {Route, Switch, withRouter} from "react-router-dom";
 import Search from "./Search";
-import About from "./About";
+import About from "./About/About";
 
 
 class Main extends React.Component {
